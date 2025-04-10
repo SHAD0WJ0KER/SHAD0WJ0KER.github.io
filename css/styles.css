@@ -1,0 +1,17 @@
+:root {
+    --main-text-color: #ffffff;
+    --secondary-text-color: #bb86fc;
+    --tertiary-text-color: #3700b3;
+
+    --main-bg-color: #121212;
+    --secondary-bg-color: #282828;
+    --tertiary-bg-color: #404040;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+}
