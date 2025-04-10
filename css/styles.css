@@ -11,7 +11,17 @@
     margin: 0;
     padding: 0;
 }
+
+html {
+    font-size: 16px;
+}
+
 body {
     background-color: var(--main-bg-color);
     color: var(--main-text-color);
+}
+
+h1 {
+    color: var(--secondary-text-color);
+    margin: 10px;
 }
