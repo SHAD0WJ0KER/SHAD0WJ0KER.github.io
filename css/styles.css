@@ -6,6 +6,8 @@
     --main-bg-color: #121212;
     --secondary-bg-color: #282828;
     --tertiary-bg-color: #404040;
+
+    --note-color: #4493f8;
 }
 * {
     margin: 0;
@@ -19,12 +21,30 @@ html {
 body {
     background-color: var(--main-bg-color);
     color: var(--main-text-color);
+    width: 90%;
+    margin: 0 auto;
 }
 
 h1 {
     color: var(--secondary-text-color);
+    margin: 10px auto;
+}
+div {
     margin: 10px;
+    padding: 4px 16px;
+    border-left: var(--note-color) solid 3px;
+}
+div.note {
+    max-width: fit-content;
+    color: inherit;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-div.note {
+div.note p:first-child {
+    width: 100%;
+    color: var(--note-color);
+}
+
+div.contents {
 }
